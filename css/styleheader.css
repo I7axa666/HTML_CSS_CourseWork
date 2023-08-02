@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Open sans";
+    src: local ("Open sans"), url("../fonts/OpenSans-Regular.woff2");
+    src: url("../fonts/OpenSans-Regular.ttf");
+    src: url("../fonts/OpenSans-Regular.woff");
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Open sans";
+    src: local ("Open sans"), url("../fonts/OpenSans-Bold.woff2");
+    src: url("../fonts/OpenSans-Bold.ttf");
+    src: url("../fonts/OpenSans-Bold.woff");
+    font-weight: bold;
+    font-display: swap;
+  }
+
+body {
+    max-width: 1660px;
+    font-family: "Open sans", sans-serif;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    height: 40vh;
+
+    background-image: url("../images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    position:relative;
+    z-index: 0;
+
+}
+
+.header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #666666;
+    opacity: 0.6;
+    
+    z-index: -1;
+}
+
+.top-panel {
+    
+    height: 15%;
+    padding-top: 1%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    
+    width: 10%;
+    margin-left: 10%;
+}
+
+.menu {
+    padding-right: 20%;
+    
+}
+
+.menu>ul {
+    display: flex;
+
+    list-style: none;
+    align-items: center;
+    font-size: 0.8em;
+
+ 
+}
+
+.menu>ul>li {
+    padding-left: 10%;
+}
+
+.menu>ul>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.intro {
+
+    
+    height: 80%;
+
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+
+    font-size: 2.5em;
+    font-weight: bold;
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: -2%;
+       
+}
