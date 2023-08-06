@@ -131,9 +131,3 @@ main {
   text-decoration: underline;
   cursor: pointer;
  }
-
-.shop {
-    border: 3px solid black;
-    width: 100%;
-    height: 30px;
-}
