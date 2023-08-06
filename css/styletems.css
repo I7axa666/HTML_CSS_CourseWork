@@ -1,0 +1,17 @@
+.tems>.trends {
+    margin-top: 3em;
+}
+
+.some__category {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.some__category:hover {
+    color: #c4b27c;
+}
+
+.int {
+    color: #c4b27c;
+}
