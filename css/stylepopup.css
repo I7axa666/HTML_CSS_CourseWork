@@ -36,8 +36,6 @@
     color: red;
 }
 
-
-
 .popup__toggle:checked + .popup {
     display:none;
 
@@ -47,13 +45,35 @@
     display: none;
 }
 
-.question, .select-label{
+.question {
+    display: block;
+    padding-bottom: 0.5em;
+
     color: black;
 }
 
-.answer {
-    height: 40px;
-}
+.select {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 95%;
+    min-height: 40px;
+    
+    padding-left: 10px;
+    
+   
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    
+    color: gray;
+    border: none;
+    background-color: #f9f9f9;
+    background-image: url("../svg/form-arrows.svg");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 0.7em; 
+  }
 
 .button-send {
     width: 95%;
@@ -61,29 +81,55 @@
     background-color: #b59f5b;
     color: white;
     text-transform: uppercase;
+    border: none;
 }
 
-.select {
+.radio-group {
+    display: inline;
+}
+
+.radio {
+    display: none;
+}
+
+.radio-group:nth-of-type(n+2){
+    margin-left: 1em;
+}
+
+.radio-group-text::before {
+    content: "";
     display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-    height: 38px;
-    
-    padding-left: 10px;
-    padding-right: 25px;
-    
-    margin: 0;
-    
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    
-    border: 1px solid #cbd1d4;
-    background-color: #f9f9f9;
-    background-image: url("../svg/form-arrows.svg");
+    vertical-align: middle;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 1em;
+    background-image: url("../svg/form-empty-circle.svg");
     background-repeat: no-repeat;
-    background-position: right 5px center;
-    
-    font-size: 14px;
-    font-family: Arial,sans-serif;
-    color: #333333;
-  }
+    background-position: center center;
+    background-size: 20px;
+}
+
+.radio:checked +.radio-group-text::before {
+    background-image: url("../svg/form-circle.svg");
+}
+
+.radio-group-text {
+    color: black;
+}
+
+.placeholder {
+    width: 95%;
+    min-height: 12em;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-left: 1em;
+
+    font-family: "Open sans", sans-serif;
+
+    background-color: #f9f9f9;
+    border: none;
+    resize: none;
+    outline: none;
+}
