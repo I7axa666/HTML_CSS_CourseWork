@@ -18,13 +18,14 @@
 
     width: 400px;
     height: 600px;
+    margin-top: 15%;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .popup__close {
     position: absolute;
-    right: -20px;
+    right: 0px;
     top: -50px;
     color:aqua;
     font-size: 40px;
@@ -32,8 +33,19 @@
     cursor: pointer;
 }
 
-.popup__close:hover {
-    color: red;
+.popup__close::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 20px;
+    height: 20px;
+    
+    background-image: url("../svg/form-x.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px;
+
 }
 
 .popup__toggle:checked + .popup {
