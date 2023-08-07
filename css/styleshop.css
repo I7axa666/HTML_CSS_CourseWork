@@ -10,6 +10,8 @@
 }
 
 .product {
+  position: relative;
+
   width: 30%;
   margin-bottom: 15%;
   margin-left: 1em;
@@ -17,8 +19,17 @@
 
 }
 
+.product-header {
+  z-index: 0;
+}
+
+.product-content {
+  z-index: 3;
+}
+
 .description {
   width: 80%;
+  z-index: 10;
 }
 
 .description:hover {
@@ -61,17 +72,18 @@ a {
   margin-right: 4em;
 }
 
-/* .product-name::after {
+.product-content::before {
   content: "";
   box-sizing: border-box;    
-  width: 20%;
-  height: 35%;
+  width: 95%;
+  height: 70%;
+  top:40%;
   
-  border: 2px solid #b59f5b;
+  border: 3px solid #b59f5b;
   position: absolute;
-  margin-top: -3em;
-  margin-left: -13em;
+  margin-left: -5%;
+  
 
   z-index: 0;
   
-} */
+}
