@@ -4,21 +4,28 @@ footer {
 }
 
 .social {
+
+    height: 6vw;
     display: flex;
     justify-content: center;
-    padding-top: 1em;
+
+    background-color: #f4f7f6;
 }
 
 .dribbble, .pinterest, .tumblr {
     
-    width: 1.5em;
-    height: 1.5em;
+    width: 2vw;
+    height: 2vw;
     position: relative;
-    text-align: center;
+    justify-content: center;
+    padding-right: 0.9vw;
+    padding-left: 0.9vw;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .copiright {
-    font-size: 1.2em;
+    font-size: 1vw;
     color: #999999;
     margin-top: 4em;
     

@@ -1,12 +1,12 @@
-.mailing>.input-form {
-    width: calc(100% + 25px);
-}
-
 .input-form {
     margin-bottom: 1em;
 }
 
-.mailing>.block {
+.mailing>.input-form input {
+    width: 96%;
+}
+
+.mailing>.input-form>.block {
     width: 100%;
     height: 4em;
     border: none;

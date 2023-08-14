@@ -1,15 +1,28 @@
-.tags__list {
-    display: inline-flex;
-    flex-wrap: wrap;
-
+.tems>.trends>.trends-name {
+    padding-top:0;
 }
 
-.some_tag {
+.tags_list {
+   padding-left: 0;
+   list-style-type: none;
+
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.some_tag a{
     color: black;
     text-transform: uppercase;
     font-weight: bold;
-    border: 2px solid #ededed;
-    padding: 0.5em 1em 0.5em 1em;
-    margin-right: 3px;
-    margin-top: 6px;
+    border: 3px solid #ededed;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    margin-right: 0.5vw;
+    
+}
+
+.some_tag {
+    box-sizing: border-box;
+    margin-bottom: 2vw;
+    
 }

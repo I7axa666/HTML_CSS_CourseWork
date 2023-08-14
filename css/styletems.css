@@ -1,17 +1,23 @@
-.tems>.trends {
-    margin-top: 3em;
+.catigories {
+    padding-left: 0;
+    list-style-type: none;
 }
 
-.some__category {
-    color: black;
-    font-weight: bold;
+.some-catigorie {
+    padding: 1vw;
     border-bottom: 2px solid #eeeeee;
 }
 
-.some__category:hover {
-    color: #c4b27c;
+.some-catigorie a {
+    color: black;
+    font-weight: bold;
+    
 }
 
 .int {
+    color: #c4b27c;
+}
+
+.some-catigorie a:hover {
     color: #c4b27c;
 }
