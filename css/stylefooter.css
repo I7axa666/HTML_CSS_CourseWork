@@ -1,6 +1,6 @@
 footer {
     text-align: center;
-       
+    margin-top: 15%;
 }
 
 .social {
@@ -16,7 +16,6 @@ footer {
     
     width: 2vw;
     height: 2vw;
-    position: relative;
     justify-content: center;
     padding-right: 0.9vw;
     padding-left: 0.9vw;

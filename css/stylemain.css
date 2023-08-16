@@ -27,16 +27,13 @@
 }
 
 .cards {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 2vw;
-    
-  }
+  display: flex;
+}
 
 .card-item {
   width: 25%;
 }
+
 
 .card-item img {
   width: 100%;
@@ -47,91 +44,51 @@
 }
 
 .card {
-    position: relative;
+  position: relative;
 }
 
-.post__content {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 15px;
-      
-    background-color: black;
-    opacity: 0.7;
-    text-align: left;
-    text-transform: uppercase;
-    color: #ffffff;
-    
-    position: absolute;
-    bottom: 0;
-    
-  }
-
-.post__content:before {
+.card::before{
+  display: block;
   content: "";
-  box-sizing: border-box;    
-  width: calc(100% - 2em);
-  height: 50%;
-  
-  border: 2px solid gold;
-  
-  position: absolute;
-  bottom: 1em;
-  
-}
-
-
-.menu1 {
-  position: absolute;
-  bottom: 35%;
-
-}
-
-.menu1>ul {
   width: 100%;
-
-  list-style: none;
-  padding-left: 1em;
-    
-}
-  
-.menu1>ul>li {
-  display: inline;
-  font-size: 1vw;
-  font-weight: bold;
-  color: gold;
-  
-}
-  
-.menu1>ul>li:not(:first-child) {
-  padding-left: 1em;
-}
-
-.my_post_title {
-    box-sizing: border-box;
-    text-overflow: ellipsis;
-    width: 100%;
-    height: 3em;
-    overflow: hidden;
-}  
-
-.my_post_title h3 {
-  color: white;
-  
-}
-
-.title_post__name {
-  width: 80%;
-  
+  height: calc(100% - 5px);
+  background-color: black;
+  opacity: 0.6;
   position: absolute;
-  bottom: 5%;
-  padding-left: 0.5em;
-  font-size: 1.2vw;
-  font-weight: bold;
-  
 }
-  
-.menu1>ul>li:hover {
+
+.card__previewbox {
+  box-sizing: border-box;
+  border: 4px solid #b59f5b;
+  position: absolute;
+  max-height: 80%;
+  bottom: 3vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  overflow-x: hidden;
+}
+
+.card__previewbox ul {
+  padding-top: 1vh;
+  padding-left: 1vw;
+} 
+
+.card__previewbox li {
+
+  display: inline;
+  list-style: none;
+  font-weight: bold;
+  padding-right: 1vw;
+  color: #b59f5b;
+}
+
+.card__previewbox li:hover {
   text-decoration: underline;
   cursor: pointer;
  }
+
+.title_post__name {
+  color: white;
+  font-size: 4vh;
+}
+
