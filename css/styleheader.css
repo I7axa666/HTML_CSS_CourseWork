@@ -25,7 +25,7 @@ body {
 }
 
 .header {
-    height: 50vh;
+    height: 25vw;
 
     background-image: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
