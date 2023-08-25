@@ -1,17 +1,61 @@
-.side__bar>.new__posts>.some_post {
-    font-size: 0.7em;
+.side__bar h3 {
+  color: black;
+  font-size: 0.85vw;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 0;
+
+  
+}
+
+.sb-np::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #e1d9bd;
+  width: 3.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.9vw;
+    
+}
+
+.some_post h4{
+  text-align: left;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 0.85vw;
+
+}
+
+.some_post a{
+  color: black;
+}
+
+.side__bar>.new__posts>.some_post>.post_list_img {
+  display: flex;
+}
+
+.side__bar>.new__posts>.some_post>.post_list_img>.art {
+  width: 5vw;
+}
+
+.side__bar>.new__posts>.some_post>.post_list_text {
+  margin-left: 1vw;
+  width: 13vw;
 }
 
 .search__field {
     box-sizing: border-box;
-    margin-top: 1em;
+    margin-top: 1vw;
 }
 
 .search-form {
     position: relative;
-
     width: 100%;
-    margin: 0 auto;
+    
 }
 
 input, .button-search {
@@ -21,25 +65,30 @@ input, .button-search {
 
 input {
     width: 90%;
-    height: 3em;
+    height: 2.98vw;
     background: #f4f7f6;
     padding-left: 1em;
+    font-size: 0.7vw;
     
 }
 
 .button-search {
     position: absolute;
-    height: 3em;
-    width: 3em;
+    height: 3.05vw;
+    width: 3.7vw;
     background-color: #b59f5b;
     background-image: url("../svg/search.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 2em;
+    background-size: 1.2vw;
     top:0;
     right: 0;
   }
 
   .button-search:hover {
     background-color: #323232;
+  }
+
+  .block {
+    font-size: 0.85vw;
   }

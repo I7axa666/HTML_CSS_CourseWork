@@ -15,8 +15,9 @@
     color: black;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 0.85vw;
     border: 3px solid #ededed;
-    padding: 0.5vw 1vw 0.5vw 1vw;
+    padding: 0.5vw 0.5vw 0.5vw 0.5vw;
     margin-right: 0.5vw;
     
 }

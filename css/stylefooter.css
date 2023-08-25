@@ -1,21 +1,22 @@
 footer {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 4vw;
 }
 
 .social {
 
-    height: 6vw;
+    height: 4.9vw;
     display: flex;
     justify-content: center;
+    align-items: center;
 
     background-color: #f4f7f6;
 }
 
-.dribbble, .pinterest, .tumblr {
+footer>.social img {
     
-    width: 2vw;
-    height: 2vw;
+    width: 1.2vw;
+    height: 1.2vw;
     justify-content: center;
     padding-right: 0.9vw;
     padding-left: 0.9vw;
@@ -23,9 +24,17 @@ footer {
     margin-bottom: auto;
 }
 
-.copiright {
-    font-size: 1vw;
+.social ul {
+    padding: 0;
+}
+
+.social ul li {
+    display: inline;
+}
+
+.copiright p {
+    font-size: 0.72vw;
     color: #999999;
     margin-top: 4em;
-    
+    text-align: center;    
 }

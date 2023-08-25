@@ -4,13 +4,16 @@
 }
 
 .some-catigorie {
-    padding: 1vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
     border-bottom: 2px solid #eeeeee;
 }
 
 .some-catigorie a {
     color: black;
     font-weight: bold;
+    font-size: 0.85vw;
     
 }
 
