@@ -51,9 +51,11 @@ body {
 }
 
 .top-panel {
-    
+    width: 70.3vw;
     height: 15%;
     padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
 
     display: flex;
     justify-content: space-between;
@@ -66,31 +68,29 @@ body {
 }
 
 .logo {
-    
     width: 10%;
-    margin-left: 10%;
 }
 
 .menu {
-    margin-right: 20vw;
-    
-    
-}
+    width: 27.97vw;
 
-.menu>ul {
+    font-size: 0.80vw;
+    text-transform: uppercase;
 
     display: flex;
-    list-style: none;
-    font-size: 0.80vw;
-
- 
+    justify-content: space-between;
 }
 
-.menu>ul>li {
-    padding-left: 10%;
+/* .menu__item:first-child {
+    margin-left: 0;
 }
 
-.menu>ul>li:hover {
+.menu__item:not(:first-child) {
+    margin-left: auto;
+    margin-right: 0;
+} */
+
+.menu__item:hover {
     text-decoration: underline;
     cursor: pointer;
 }

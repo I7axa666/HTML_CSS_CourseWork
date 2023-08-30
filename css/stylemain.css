@@ -134,3 +134,7 @@ display: block;
   color: #b59f5b;
   cursor: pointer;
 }
+
+.title_post__name {
+  margin-top: 0;
+}

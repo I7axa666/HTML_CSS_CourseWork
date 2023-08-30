@@ -1,12 +1,14 @@
+.shop {
+  width: 70.3vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .shop h3 {
   font-size: 1.2vw;
 }
 
 .product__cards {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-
   color:black;
   display: flex;
   flex-wrap: nowrap;
@@ -14,33 +16,55 @@
 }
 
 .product {
-  width: 25vw;
+  width: 30%;
   position: relative;
-  display: flex;
-  margin-left: 1vw;
 }
 
-.product-header {
-  position: absolute;
-  left: 1.3vw;
+.product-header1 {
+  width: 17.85vw;
+  height: 12.1vw;
+  margin-bottom: -2vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/shop-item-desk1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
-  
+.product-header2 {
+  width: 17.85vw;
+  height: 12.1vw;
+  margin-bottom: -2vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/shop-item-desk2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.product-header3 {
+  width: 17.85vw;
+  height: 12.1vw;
+  margin-bottom: -2vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/shop-item-desk3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .product-img {
-  width: 20vw;
-
+  width: 17.85vw;
+  z-index: 0;
 }
 
 .product-content {
   border: 3px solid #b59f5b;
-  margin-top: 11vw;
+  box-sizing: border-box;
+  height: 65%;
   padding-top: 2vw;
   padding-left: 1vw;
-  padding-bottom: 2vw;
-
-  z-index: 1;
-  
+  padding-bottom: 2vw;  
 }
 
 .product-name {
@@ -49,7 +73,7 @@
 }
 
 .description {
-  width: 80%;
+  width: 95%;
   font-size: 0.9vw;
   margin-top: 0.5vw;
 }
