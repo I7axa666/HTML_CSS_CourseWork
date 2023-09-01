@@ -70,16 +70,30 @@ body {
     width: 10%;
 }
 
-.menu {
-    width: 27.97vw;
-
-    font-size: 0.80vw;
-    text-transform: uppercase;
-
-    display: flex;
-    justify-content: space-between;
+@media (max-width: 770px) {
+    .menu__item {
+        display: none;
+    }
+    
+    
 }
 
+
+@media (min-width: 771px) {
+    .menu__button {
+        display: none;
+    }
+
+    .menu {
+        width: 27.97vw;
+
+        font-size: 0.80vw;
+        text-transform: uppercase;
+
+        display: flex;
+        justify-content: space-between;
+    }
+}
 /* .menu__item:first-child {
     margin-left: 0;
 }
