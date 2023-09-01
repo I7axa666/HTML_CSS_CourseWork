@@ -123,6 +123,7 @@ cursor: pointer;
 .title_post__name a{
 color: white;
 font-size: 1.2vw;
+text-transform: uppercase;
 width: 80%;
 margin-top: 0;
 margin-left: 1vw;

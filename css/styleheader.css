@@ -17,9 +17,8 @@
 
 body {
     font-family: "Open sans", sans-serif;
-    
     color: white;
-
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
 }
