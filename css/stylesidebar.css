@@ -92,3 +92,33 @@ input {
   .block {
     font-size: 0.85vw;
   }
+
+@media (min-width: 361px) and (max-width: 770px) {
+  .side__bar h3 {
+    font-size: 1.85vw;
+  }
+
+  .post_list_img {
+    width: 9vw;
+  }
+
+  .side__bar>.new__posts>.some_post>.post_list_img>.art {
+    width: 100%;
+  }
+
+
+  .side__bar>.new__posts>.some_post>.post_list_text {
+    width: 25vw;
+  }
+
+  input {
+    font-size: 1.7vw;
+    height: 5.5vw;
+  }
+
+  .button-search {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: 2vw;
+  }
+}

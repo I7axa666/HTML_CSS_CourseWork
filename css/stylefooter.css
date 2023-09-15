@@ -40,3 +40,14 @@ footer>.social img {
     margin-top: 4em;
     text-align: center;    
 }
+
+@media (min-width: 361px) and (max-width: 770px) {
+    footer>.social img {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .copiright p {
+        font-size: 1.6vw;
+    }
+}

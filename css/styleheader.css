@@ -70,12 +70,77 @@ body {
     width: 10%;
 }
 
-@media (max-width: 770px) {
+@media (min-width: 361px) and (max-width: 770px) {
+    
+    .top-panel{
+        width: auto;
+        margin-left: 4.4vw;
+        margin-right: 4.4vw;
+        padding-top: 4.4vw;
+    }
+
+    .logo {
+        min-width: 20.4vw;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 770px) {
+    .header {
+        height: 50vw;
+        background-image: url("../images/banner-bg-tablet.jpg");
+    }
+    
+    header>h1 {
+        width: 77vw;
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+    .menu {
+        margin-top: -1vw;
+    }
+    
     .menu__item {
         display: none;
     }
     
-    
+    .menu__button {
+        width: 2.9vw;
+        height: 2.4vw;  
+        border: none;
+      
+        background-color: transparent;
+        position: relative;
+        text-indent: -9999px;
+      }
+      
+      .menu__button:before, .menu__button:after {
+        content:"";
+        width: 100%;
+        height: 0.4vw;
+      
+        background-color: #ffffff;  
+        position: absolute;
+        left: 0;
+      }
+      
+      .menu__button:before {
+        top: 0;
+      }
+      
+      .menu__button:after {
+        bottom: 0;
+      }
+      
+      .menu__button-label {
+        width: 100%;
+        height: 0.4vw;
+      
+        background-color: #ffffff;  
+      
+        position: absolute;
+        left: 0;
+        top: 45%;
+      }
 }
 
 
@@ -94,14 +159,6 @@ body {
         justify-content: space-between;
     }
 }
-/* .menu__item:first-child {
-    margin-left: 0;
-}
-
-.menu__item:not(:first-child) {
-    margin-left: auto;
-    margin-right: 0;
-} */
 
 .menu__item:hover {
     text-decoration: underline;

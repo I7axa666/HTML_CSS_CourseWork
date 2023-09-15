@@ -24,3 +24,9 @@
 .some-catigorie a:hover {
     color: #c4b27c;
 }
+
+@media (min-width: 361px) and (max-width: 770px) {
+    .some-catigorie a{
+        font-size: 1.8vw;
+    }
+}

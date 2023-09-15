@@ -16,3 +16,9 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+@media (min-width: 361px) and (max-width: 770px) {
+    .mailing>.input-form>.block {
+        font-size: 1.8vw;
+    }
+}

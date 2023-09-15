@@ -36,14 +36,48 @@ display: flex;
 position: relative;
 }
 
+@media (min-width: 361px) and (max-width: 770px) {
+  .trends-name>h2 {
+    font-size: 2.3vw;
+  }
+  
+  .cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.card-item:not(:first-child) {
-margin-left: 0.5vw;
+  .card-item {
+    margin-bottom: 3px;
+  }
+
+  .card-item {
+    width: 49.8%;
+  }
+
+  .card1,.card2,.card3,.card4 {
+    width: 100%;
+    height: 32vw;
+  }
+
+  a {
+    font-size: 1.8vw;
+  }
+
+  .card__previewbox>h3>a {
+    font-size: 2.25vw;
+  }
+
+  .card-item:nth-child(even) {
+   margin-left: 1px;
+  }
+  
 }
 
-/* .card {
-position: relative;
-} */
+@media (min-width: 771px) {
+  .card-item:not(:first-child) {
+  margin-left: 0.5vw;
+  }
+}
 
 .card1,.card2,.card3,.card4 {
   min-height: 19.3vw;
