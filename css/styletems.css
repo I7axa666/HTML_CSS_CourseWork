@@ -30,3 +30,13 @@
         font-size: 1.8vw;
     }
 }
+
+@media (max-width: 360px) {
+    .some-catigorie a {
+        font-size: 4vw;
+    }
+
+    .some-catigorie {
+        text-align: left;
+    }
+}

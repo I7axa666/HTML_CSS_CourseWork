@@ -35,3 +35,16 @@
         padding-right: 1.1vw;
     }
 }
+
+@media (max-width: 360px) {
+    .tags_list li{
+        margin-top: 2vw;
+    }
+    
+    .some_tag a{
+        font-size: 3.5vw;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        margin-right: 2vw;
+    }
+}

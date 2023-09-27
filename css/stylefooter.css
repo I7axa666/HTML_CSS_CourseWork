@@ -4,7 +4,7 @@ footer {
 }
 
 .social {
-    max-width: 70.5vw;
+    width: 70.5vw;
     margin-left: auto;
     margin-right: auto;
     height: 4.9vw;
@@ -42,12 +42,39 @@ footer>.social img {
 }
 
 @media (min-width: 361px) and (max-width: 770px) {
+    .social {
+        max-width: 90.5vw;
+        height: 10vw;
+        margin-top: 7vw;
+    }
+
     footer>.social img {
         width: 2vw;
         height: 2vw;
+       
     }
 
     .copiright p {
         font-size: 1.6vw;
+    }
+}
+
+@media (max-width: 360px) {
+    footer {
+        margin-top: 12vw;
+    }
+
+    .social {
+        width: 90vw;
+        height: 15vw;
+    }
+
+    footer>.social img {
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+
+    .copiright p {
+        font-size: 3.5vw;
     }
 }

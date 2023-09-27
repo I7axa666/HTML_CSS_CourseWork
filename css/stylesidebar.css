@@ -1,3 +1,7 @@
+.side__bar {
+  width: 16.5vw;
+}
+
 .side__bar h3 {
   color: black;
   font-size: 0.85vw;
@@ -39,11 +43,13 @@
 }
 
 .side__bar>.new__posts>.some_post>.post_list_img>.art {
-  width: 5vw;
+  width: 4.2vw;
+  height: 4.2vw;
 }
 
 .side__bar>.new__posts>.some_post>.post_list_text {
-  margin-left: 1vw;
+  margin-top: -0.5vw;
+  margin-left: 0.5vw;
   width: 13vw;
 }
 
@@ -120,5 +126,83 @@ input {
     width: 5.5vw;
     height: 5.5vw;
     background-size: 2vw;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .side__bar {
+    width: 91vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .new__posts>h3 {
+    font-size: 4.5vw;
+  }
+
+  .sb-np::after {
+    width: 20vw;
+  }
+
+  .side__bar>.new__posts>.some_post>.post_list_img>.art {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .some_post h4 {
+    font-size: 4vw;
+    width: 70vw;
+    margin-top: 1vw;
+  }
+
+  .side__bar>.new__posts>.some_post>.post_list_text {
+    width: 70vw;
+    margin-top: -2vw;
+  }
+
+  .date {
+    font-size: 3.5vw;
+  }
+
+  .search__field {
+    margin-top: 13vw;
+  }
+  
+  input {
+    width: 85vw;
+    height: 13vw;
+    font-size: 4vw;
+    
+  }
+
+  .button-search {
+    width: 13vw;
+    height: 13vw;
+    background-size: 5vw;
+  }
+
+  .mailing h3{
+    font-size: 4.5vw;
+  }
+
+  .trends-name::after{
+    width: 20vw;
+  }
+
+  .block {
+    width: 90vw;
+    font-size: 3.5vw;
+    margin-top: 2vw;
+  }
+
+  .tags h3{
+    font-size: 4.5vw;
+  }
+
+  
+
+  .tems h3{
+    font-size: 4.5vw;
   }
 }
