@@ -29,11 +29,16 @@
 }
 
 @media (min-width: 361px) and (max-width: 770px) {
-    .some_tag a{
-        font-size: 1.9vw;
-        padding-left: 1.1vw;
-        padding-right: 1.1vw;
-    }
+.tags {
+    width: 35vw;
+}
+
+.some_tag a{
+    font-size: 1.9vw;
+    padding-left: 1.1vw;
+    padding-right: 1.1vw;
+}
+
 }
 
 @media (max-width: 360px) {

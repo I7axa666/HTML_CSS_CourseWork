@@ -104,6 +104,10 @@ input {
     font-size: 1.85vw;
   }
 
+  .sb-np::after {
+    width: 8vw;
+  }
+
   .post_list_img {
     width: 9vw;
   }

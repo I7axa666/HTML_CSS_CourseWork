@@ -43,7 +43,7 @@ footer>.social img {
 
 @media (min-width: 361px) and (max-width: 770px) {
     .social {
-        max-width: 90.5vw;
+        width: 91vw;
         height: 10vw;
         margin-top: 7vw;
     }

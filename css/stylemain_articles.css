@@ -123,6 +123,19 @@
     width: 90vw;
   }
 
+  .post__list>.some_post:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #e1d9bd;
+    width: 51vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.2vw;
+    margin-bottom: 2vw;
+    
+  }
+
   .articles>.post__list {
     width: 51vw;
 
@@ -168,12 +181,27 @@
   }
 
   .post__list {
-    width: 100%;
+    width: 91vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .post__list>.some_post {
     flex-direction: column;
     width: 100%;
+  }
+
+  .post__list>.some_post:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #e1d9bd;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.2vw;
+    margin-bottom: 2vw;
+    
   }
 
   .post_list_img>img {
