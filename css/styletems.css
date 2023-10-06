@@ -25,18 +25,25 @@
     color: #c4b27c;
 }
 
-@media (min-width: 361px) and (max-width: 770px) {
+@media (min-width: 641px) and (max-width: 1200px) {
+    .some-catigorie {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    
     .some-catigorie a{
         font-size: 1.8vw;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
     .some-catigorie a {
         font-size: 4vw;
     }
 
     .some-catigorie {
         text-align: left;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
     }
 }

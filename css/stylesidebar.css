@@ -70,7 +70,7 @@ input, .button-search {
 }
 
 input {
-    width: 90%;
+    width: calc(100% - 1.1em);
     height: 2.98vw;
     background: #f4f7f6;
     padding-left: 1em;
@@ -99,9 +99,18 @@ input {
     font-size: 0.85vw;
   }
 
-@media (min-width: 361px) and (max-width: 770px) {
+@media (min-width: 641px) and (max-width: 1200px) {
+  .side__bar {
+    width: 270px;
+    margin-left: 35px;
+  }
+  
   .side__bar h3 {
     font-size: 1.85vw;
+  }
+
+  .side__bar a {
+    font-size: 1.6vw;
   }
 
   .sb-np::after {
@@ -109,13 +118,14 @@ input {
   }
 
   .post_list_img {
-    width: 9vw;
+    width: 8vw;
+    
   }
 
   .side__bar>.new__posts>.some_post>.post_list_img>.art {
-    width: 100%;
+    width: 8vw;
+    height: 8vw;
   }
-
 
   .side__bar>.new__posts>.some_post>.post_list_text {
     width: 25vw;
@@ -134,7 +144,7 @@ input {
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
   .side__bar {
     width: 91vw;
     margin-left: auto;

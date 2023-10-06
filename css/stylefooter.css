@@ -41,7 +41,7 @@ footer>.social img {
     text-align: center;    
 }
 
-@media (min-width: 361px) and (max-width: 770px) {
+@media (min-width: 641px) and (max-width: 1200px) {
     .social {
         width: 91vw;
         height: 10vw;
@@ -59,7 +59,7 @@ footer>.social img {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
     footer {
         margin-top: 12vw;
     }

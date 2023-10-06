@@ -28,7 +28,7 @@
     
 }
 
-@media (min-width: 361px) and (max-width: 770px) {
+@media (min-width: 641px) and (max-width: 1200px) {
 .tags {
     width: 35vw;
 }
@@ -41,7 +41,7 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
     .tags_list li{
         margin-top: 2vw;
     }

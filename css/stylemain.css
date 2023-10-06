@@ -36,7 +36,7 @@ display: flex;
 position: relative;
 }
 
-@media (min-width: 361px) and (max-width: 770px) {
+@media (min-width: 641px) and (max-width: 1200px) {
   .trends-name>h2 {
     font-size: 2.3vw;
   }
@@ -55,7 +55,7 @@ position: relative;
   }
 
   .card-item {
-    width: 49.8%;
+    width: 49.7vw;
   }
 
   .card1,.card2,.card3,.card4 {
@@ -78,7 +78,7 @@ position: relative;
   
 }
 
-@media (min-width: 771px) {
+@media (min-width:1201px) {
   .card-item:not(:first-child) {
   margin-left: 0.5vw;
   }
@@ -151,7 +151,7 @@ font-weight: bold;
 text-transform: uppercase;
 padding-right: 1vw;
 color: #b59f5b;
-font-size: 0.85vw;
+font-size: 1.5vw;
 }
 
 .card__previewbox li:hover {
@@ -180,7 +180,7 @@ display: block;
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
   .trends-name h2 {
     font-size: 4.5vw;
   }

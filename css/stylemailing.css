@@ -1,9 +1,10 @@
-.input-form {
-    margin-bottom: 1em;
+.mailing {
+    width: 100%;
+    position:relative;
 }
 
-.mailing>.input-form input {
-    width: 96%;
+.input-form {
+    margin-bottom: 1em;
 }
 
 .mailing>.input-form>.block {
@@ -17,7 +18,7 @@
     font-weight: bold;
 }
 
-@media (min-width: 361px) and (max-width: 770px) {
+@media (min-width: 641px) and (max-width: 1200px) {
     .mailing>.input-form>.block {
         font-size: 1.8vw;
     }
