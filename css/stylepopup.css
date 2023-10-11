@@ -15,12 +15,12 @@
 .popup__content {
     position: relative;
     background: white;
+    width: 386px;
+    height: 589px;
 
-    width: 400px;
-    height: 600px;
-    margin-top: 15%;
+    
     padding: 20px;
-    box-sizing: border-box;
+    box-sizing:content-box
 }
 
 .popup__close {
@@ -59,7 +59,9 @@
 
 .question {
     display: block;
-    padding-bottom: 0.5em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   
 
     color: black;
 }
@@ -68,7 +70,7 @@
     display: inline-block;
     box-sizing: border-box;
     width: 95%;
-    min-height: 40px;
+    min-height: 49px;
     
     padding-left: 10px;
     
@@ -89,11 +91,13 @@
 
 .button-send {
     width: 95%;
-    height: 3em;
+    height: 50px;
     background-color: #b59f5b;
     color: white;
     text-transform: uppercase;
     border: none;
+
+    margin-top: 10px;
 }
 
 .radio-group {
@@ -105,7 +109,7 @@
 }
 
 .radio-group:nth-of-type(n+2){
-    margin-left: 1em;
+    margin-left: 10px;
 }
 
 .radio-group-text::before {
@@ -116,7 +120,7 @@
     width: 20px;
     height: 20px;
 
-    margin-right: 1em;
+    margin-right: 10px;
     background-image: url("../svg/form-empty-circle.svg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -133,10 +137,10 @@
 
 .placeholder {
     width: 95%;
-    min-height: 12em;
+    height: 132px;
     box-sizing: border-box;
-    padding-top: 0;
-    padding-left: 1em;
+    padding-left: 10px;
+    
 
     font-family: "Open sans", sans-serif;
 
@@ -144,4 +148,44 @@
     border: none;
     resize: none;
     outline: none;
+}
+
+.trends-name h2{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+span.question,
+p.question,
+span.radio-group-text {
+    font-size: 13px;
+}
+
+
+button.button-send {
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+@media (min-width: 641px) and (max-width: 1200px) {
+
+    .trends-name h2{
+        font-size: 18px;
+
+    }
+    
+}
+
+@media (max-width: 640px) {
+
+    .popup__content {
+        width: 331px;
+        height: 543px;
+
+    }
+
+    .trends-name h2{
+        font-size: 16px;
+
+    }
 }
